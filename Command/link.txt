@@ -1,0 +1,14 @@
+//设置从A目录链接到B目录的指令
+//By Xylia
+
+
+md "{Ori}\contents\bns";
+md "{Ori}\data";
+
+
+mklink /j "{Ori}\contents\bns\CookedPC"  "{Tar}\contents\bns\CookedPC"
+mklink /j "{Ori}\contents\Local\Garena\THAI\CookedPC\local"  "{Tar}\contents\Local\TENCENT\CHINESES\CookedPC"
+
+
+mklink /j "{Ori}\contents\Local\Garena\data"  "{Ori}\data"
+mklink /j "{Ori}\contents\Local\Garena\THAI\data"  "{Ori}\data"
